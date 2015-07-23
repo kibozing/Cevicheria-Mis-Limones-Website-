@@ -1,0 +1,241 @@
+ /***************************
+GENERAL
+***************************/
+
+body  {
+  font-family: 'Open-Sanz', sans-serif;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;  
+}
+
+a {
+  text-decoration: none;
+} 
+
+img {
+  max-width: 100%; 
+}
+
+h3  {
+  margin: 0 0 1em 0;
+}
+
+/***************************
+HEADING
+***************************/
+
+
+.flag {
+  background:url(../img/limones.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  float: left;
+  margin: 0 auto;	
+  padding: 0; 
+  width: 100%;
+  text-align: center;
+}
+
+#logo	{
+  text-align: center;
+  }
+
+h1  {
+  font-family: 'Changa One', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height:0.8em;
+}
+
+h2  {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+} 
+
+
+
+/***************************
+NAVIGATION
+***************************/
+
+.nav   {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.nav ul  {
+  text-align: center; 
+  margin: 0 10px;
+  padding: 0;
+}
+
+.nav li  {
+  display: inline-block;
+}
+
+.nav a   {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+
+
+ /***************************
+FOOTER
+***************************/
+
+footer  {
+  font-size: 0.75em;
+  text-align: center;
+  clear:both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon  {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+
+/***************************
+PAGE: PORTFOLIO
+***************************/
+
+#gallery  {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float:left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+  margin:0;
+  padding:5%;
+  font-size:0.75em;
+  color:#bdc3c7;
+}
+
+
+
+
+/***************************
+PAGE: ABOUT
+***************************/
+
+.profile-photo  {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+
+
+/***************************
+PAGE: CONTACT
+***************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  background-repeat:no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a  {
+  background-image: url('../img/phone.png');
+}
+  
+.contact-info li.mail a  {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a  {
+  background-image: url('../img/twitter.png');
+}
+
+
+#primary	{
+  margin-top: 50px;
+}
+
+#secondary	{
+  margin-top: 50px;
+}
+
+
+/***************************
+COLORS
+***************************/
+
+/* site body */
+body {
+  background-color: white;
+  color: #999;
+}
+
+/* green header */
+
+
+/* nav background on mobile devices */
+.nav {
+  background: #fefcea; /* Old browsers */
+  background: -moz-linear-gradient(top,  #FFFF33 0%, #5BD75B 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFF33), color-stop(100%,#5BD75B)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #FFFF33 0%,#5BD75B 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #FFFF33 0%,#5BD75B 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #FFFF33 0%,#5BD75B 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #FFFF33 0%,#5BD75B 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFF33', endColorstr='#5BD75B',GradientType=0 ); /* IE6-9 */
+}
+
+/* logo text */
+h1, h2  {
+  color: #fff;
+}
+
+/* links */
+a   {
+  color: #6ab47b;
+}
+
+/* nav link */
+.nav a, .nav a:visited  {
+  color: #fff;
+}
+
+/* selected nav link */
+.nav a.selected, .nav a:hover {
+  color: #32673f;
+}
+
+  background: #599a68;
+    box-shadow:0px -5px 3px 0px #0F3E0F inset;  
